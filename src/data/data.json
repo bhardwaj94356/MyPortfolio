@@ -1,0 +1,52 @@
+[
+  {
+    "about": {
+      "paragraph": "Hello and welcome to my portfolio. I am a prolific developer trying to learn as much as I can and get invlove in new technologies. Consistency is the way I go, for my life is short to learn everything but with Consistency, I can atleast give it my all without failing. When developing something, I go above and beyond to search for answers for question where I get stuck and I am not shy of asking others to help me in that regards whoever the person is, may he/she be older than me or younger than me."
+    },
+    "dev" : {
+      "title" : "frontend",
+      "content" : "Building a custom tailored solution based on your technical specification"
+    },
+    "backEnd" : {
+      "title" : "backend",
+      "content" : "Creating a database with the help of MySQL and providing the best solution"
+    },
+    "security" : {
+      "title" : "security",
+      "content" : "I try to implement the best practiced security in every and all systems"
+    },
+    "seo" : {
+      "title" : "SEO optimization",
+      "content" : "Since I am new at this, I am learning how to optimize your website as much as possible"
+    },
+    "bachelor" : {
+      "title" : "BCA",
+      "institute" : "Sikkim Manipal University, October 2013",
+      "project" : "Hotel Management System",
+      "language" : "VB Dot Net"
+    },
+    "master" : {
+      "title" : "MCA",
+      "institute" : "Jorhat Engineering College, October 2017",
+      "project" : "AAU Management System",
+      "language" : "HTML, CSS, PHP"
+    },
+    "exp" : {
+      "institute_1" : "Freelance",
+      "year_1" : "Jan 2017 - Nov 2017",
+      "post_1" : "Web-Application Developer",
+      "institute_2" : "Global Professional Academy",
+      "year_2" : "Dec 2017 - Dec 2018",
+      "post_2" : "Faculty",
+      "institute_3" : "Golaghat Engineering College",
+      "year_3" : "Aug 2019 - Dec 2019",
+      "post_3" : "Guest Lecturer",
+      "institute_4" : "Army Public School",
+      "year_4" : "Jun 2020 - Nov 2020",
+      "post_4" : "IT Supervisor",
+      "institute_5" : "Freelance",
+      "year_5" : "May 2021 - Dec 2021",
+      "post_5" : "Web-Application Developer"
+    }
+  }
+]

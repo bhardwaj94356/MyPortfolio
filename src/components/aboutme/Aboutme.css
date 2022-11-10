@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image_container {
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../../public/img/photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  left: 100px;
+}
+
+.image_contact {
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../../public/img/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  left: 100px;
+}
+
+.image_edu {
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../../public/img/edu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  left: 100px;
+}
+
+.image_exp {
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../../public/img/exp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  left: 100px;
+}
+
+.bottom_div {
+  position: absolute;
+  bottom: 100px;
+  left: 10vw;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    width: 75%;
+}
+
+hr {
+    background: white;
+    height: 1px;
+    width: 90%;
+}
+
+.content_align {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.content_in {
+  border: 2px solid;
+  color: #aaadac;
+  padding: 2vw 0;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+
+}
+
+.social {
+  display: flex;
+  color: #aaadac;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 0;
+  margin: 10px;
+  width: 300px;
+  border: 2px solid;
+  border-radius: 5px;
+  gap: 1vw;
+}
+
+.edu {
+  border: 2px solid;
+  color: #aaadac;
+  padding: 2vw 0;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.exp_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exp {
+  border: 2px solid;
+  color: #aaadac;
+  padding: 2vw 0;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  #image {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top_space {
+    height: 7vh;
+  }
+
+  .media_size {
+    font-size: 5000000px;
+  }
+}
