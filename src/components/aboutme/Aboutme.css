@@ -58,28 +58,30 @@
 }
 
 .para {
-    width: 75%;
+    width: 95%;
+
 }
 
 hr {
     background: white;
     height: 1px;
-    width: 90%;
+    width: 15%;
+    margin: 20px 0;
 }
 
 .content_align {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
-    gap: 20px;
+    justify-content: center;
+    gap: 1px;
     flex-wrap: wrap;
 }
 
 .content_in {
   border: 2px solid;
   color: #aaadac;
-  padding: 2vw 0;
-  margin: 10px;
+  padding: 20px 0;
+  margin: 5px;
   width: 300px;
   border-radius: 5px;
 
@@ -112,13 +114,13 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 16px;
 }
 
 .exp {
   border: 2px solid;
   color: #aaadac;
   padding: 2vw 0;
-  margin: 10px;
   width: 300px;
   border-radius: 5px;
 }
@@ -140,4 +142,14 @@ hr {
   .media_size {
     font-size: 5000000px;
   }
+}
+
+@media screen and (max-width: 943px) {
+  #image {
+    display: none;
+  }
+
+  .para {
+    width: 80%;
+}
 }

@@ -1,22 +1,22 @@
 [
   {
     "about": {
-      "paragraph": "Hello and welcome to my portfolio. I am a prolific developer trying to learn as much as I can and get invlove in new technologies. Consistency is the way I go, for my life is short to learn everything but with Consistency, I can atleast give it my all without failing. When developing something, I go above and beyond to search for answers for question where I get stuck and I am not shy of asking others to help me in that regards whoever the person is, may he/she be older than me or younger than me."
+      "paragraph": "Hello and welcome to my portfolio. I am a prolific developer trying to learn as much as I can and get invlove in new technologies. Consistency is the way I go, for my life is short to learn everything but with Consistency, I can atleast give it my all. When developing something, I go above and beyond to search for answers for question where I get stuck and I am not shy of asking others to help me in that regards whoever the person is, may he/she be older than me or younger than me."
     },
     "dev" : {
-      "title" : "frontend",
+      "title" : "Frontend",
       "content" : "Building a custom tailored solution based on your technical specification"
     },
     "backEnd" : {
-      "title" : "backend",
+      "title" : "Backend",
       "content" : "Creating a database with the help of MySQL and providing the best solution"
     },
     "security" : {
-      "title" : "security",
+      "title" : "Security",
       "content" : "I try to implement the best practiced security in every and all systems"
     },
     "seo" : {
-      "title" : "SEO optimization",
+      "title" : "SEO",
       "content" : "Since I am new at this, I am learning how to optimize your website as much as possible"
     },
     "bachelor" : {

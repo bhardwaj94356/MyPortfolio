@@ -13,12 +13,12 @@ const Aboutme = () => {
       <div className="image_container" id="image">
         <div className="bottom_div">
           <h1 className="color_white" style={{fontSize : '2vw'}}>Bhardwaj Thengal</h1>
-          <p className="color_green" style={{fontSize : '1vw'}}>Developer | Software Engineer</p>
+          <p className="color_green" style={{fontSize : '1vw'}}>Software Engineer</p>
         </div>
       </div>
       <div className="color_bg content" id="aboutMe">
         <p className="color_white media_size" style={{fontSize : '50px', fontWeight : 'bold', margin : '0'}}>about me</p>
-        <p className="color_green">31 Years / Assam / Freelance</p>
+        <p className="color_green">31 Years - Assam</p>
         {
           data.map((userData) => (
             <p className="color_gray para">{userData.about.paragraph}</p>
@@ -88,11 +88,13 @@ const Aboutme = () => {
       <div className="content">
         <p className="color_white" style={{fontSize : '50px', fontWeight : 'bold', margin : '0'}}>contact me</p>
         <hr />
-        <a className="social" href="mailto: bhardwaj94356@gmail.com"><FaMailBulk size={30} />G Mail</a>
-        <a className="social" href="https://github.com/bhardwaj94356"><FaGithub size={30} />Github</a>
-        <a className="social" href="https://www.linkedin.com/in/bhardwaj-thengal-88a451227"><FaLinkedinIn size={30} />Linkedin</a>
-        <a className="social" href="https://www.facebook.com/bhardwajthengal"><FaFacebookF size={30} />Facebook</a>
-        <a className="social" href="tel: +919957975677"><FaPhoneAlt size={30} />Call Me</a>
+        <div className="exp_content">
+          <a className="social" href="mailto: bhardwaj94356@gmail.com"><FaMailBulk size={30} />G Mail</a>
+          <a className="social" href="https://github.com/bhardwaj94356"><FaGithub size={30} />Github</a>
+          <a className="social" href="https://www.linkedin.com/in/bhardwaj-thengal-88a451227"><FaLinkedinIn size={30} />Linkedin</a>
+          <a className="social" href="https://www.facebook.com/bhardwajthengal"><FaFacebookF size={30} />Facebook</a>
+          <a className="social" href="tel: +919957975677"><FaPhoneAlt size={30} />Call Me</a>
+        </div>
       </div>
     </div>
     <div className="container color_bg" id="education">
@@ -100,31 +102,32 @@ const Aboutme = () => {
       <div className="content">
         <p className="color_white" style={{fontSize : '50px', fontWeight : 'bold', margin : '0'}}>education</p>
         <hr />
-        <div className="edu">
-          {
-            data.map((degree) => (
-              <>
-                <h2 className="color_white">{degree.bachelor.title}</h2>
-                <p className="color_gray"><b>Institute :</b> {degree.bachelor.institute}</p>
-                <p className="color_gray"><b>Project :</b> {degree.bachelor.project}</p>
-                <p className="color_gray"><b>Languange :</b> {degree.bachelor.language}</p>
-              </>
-            ))
-          }
+        <div className="exp_content">
+          <div className="edu">
+            {
+              data.map((degree) => (
+                <>
+                  <h2 className="color_white">{degree.bachelor.title}</h2>
+                  <p className="color_gray"><b>Institute :</b> {degree.bachelor.institute}</p>
+                  <p className="color_gray"><b>Project :</b> {degree.bachelor.project}</p>
+                  <p className="color_gray"><b>Languange :</b> {degree.bachelor.language}</p>
+                </>
+              ))
+            }
+          </div>
+          <div className="edu">
+            {
+              data.map((degree) => (
+                <>
+                  <h2 className="color_white">{degree.master.title}</h2>
+                  <p className="color_gray"><b>Institute :</b> {degree.master.institute}</p>
+                  <p className="color_gray"><b>Project :</b> {degree.master.project}</p>
+                  <p className="color_gray"><b>Language :</b> {degree.master.language}</p>
+                </>
+              ))
+            }
+          </div>
         </div>
-        <div className="edu">
-          {
-            data.map((degree) => (
-              <>
-                <h2 className="color_white">{degree.master.title}</h2>
-                <p className="color_gray"><b>Institute :</b> {degree.master.institute}</p>
-                <p className="color_gray"><b>Project :</b> {degree.master.project}</p>
-                <p className="color_gray"><b>Language :</b> {degree.master.language}</p>
-              </>
-            ))
-          }
-        </div>
-
       </div>
     </div>
     <div className="container color_bg" id="exp">
