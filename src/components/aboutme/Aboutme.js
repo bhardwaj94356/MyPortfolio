@@ -91,9 +91,10 @@ const Aboutme = () => {
         <div className="exp_content">
           <a className="social" href="mailto: bhardwaj94356@gmail.com"><FaMailBulk size={30} />G Mail</a>
           <a className="social" href="https://github.com/bhardwaj94356"><FaGithub size={30} />Github</a>
+        </div>
+        <div className="exp_content">
           <a className="social" href="https://www.linkedin.com/in/bhardwaj-thengal-88a451227"><FaLinkedinIn size={30} />Linkedin</a>
           <a className="social" href="https://www.facebook.com/bhardwajthengal"><FaFacebookF size={30} />Facebook</a>
-          <a className="social" href="tel: +919957975677"><FaPhoneAlt size={30} />Call Me</a>
         </div>
       </div>
     </div>
@@ -169,6 +170,8 @@ const Aboutme = () => {
               ))
             }
           </div>
+        </div>
+        <div className="exp_content">
           <div className="exp">
             {
               data.map((expData) => (
