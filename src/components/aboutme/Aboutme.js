@@ -2,7 +2,7 @@ import React from "react";
 import "./Aboutme.css";
 import "../Style.css";
 import data from "../../data/data.json";
-import { FaMailBulk, FaPhoneAlt, FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaMailBulk, FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 
 const Aboutme = () => {
@@ -96,6 +96,7 @@ const Aboutme = () => {
           <a className="social" href="https://www.linkedin.com/in/bhardwaj-thengal-88a451227"><FaLinkedinIn size={30} />Linkedin</a>
           <a className="social" href="https://www.facebook.com/bhardwajthengal"><FaFacebookF size={30} />Facebook</a>
         </div>
+
       </div>
     </div>
     <div className="container color_bg" id="education">
